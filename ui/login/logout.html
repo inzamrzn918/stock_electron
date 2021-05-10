@@ -1,0 +1,6 @@
+<script>
+      const {ipcRenderer} = require("electron");
+      var x = localStorage.removeItem("username");
+      ipcRenderer.send("redirect","login");
+       
+</script>
